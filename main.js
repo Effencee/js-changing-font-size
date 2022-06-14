@@ -5,13 +5,11 @@ const text = document.querySelector('p');
 let textSize = 16; //początkowa wielkość font-size dla p
 
 function textIncrease() {
- // console.log("klik!");
  textSize++;
  text.style.fontSize = textSize + "px";
 }
 
 function textDecrease() {
-    // console.log("klik!");
     textSize--;
     text.style.fontSize = textSize + "px";
    }
